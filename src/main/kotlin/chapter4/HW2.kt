@@ -2,7 +2,7 @@ package chapter4
 
 fun main() {
 
-    val olist = mutableListOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val olist = mutableListOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11)
 
     val evenN = olist.filter {
         it % 2 == 0
@@ -12,9 +12,9 @@ fun main() {
         it * it
     }
 
-    val finalsum = squared.sum()
+    val finalsum2 = squared.sum()
 
-    println(finalsum)
+    println(finalsum2)
 
    // val olist2 = mutableListOf<Int>(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
    //     .filter { it % 2 == 0 }
